@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Museum control</title>
+	<script src="js/socketio.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header>
+		<div id="page_map_btn" data-selected=true>
+			<img src="photos/map.png">
+		</div>
+		<div id="page_support_btn">
+			<img src="photos/support.png">
+		</div>
+	</header>
+
+	<div id="noti_holder">
+	</div>
+
+	<aside class="page" id="page_map">
+		<div id="view_map_map">
+			<img src="photos/map.jpg">
+		</div>
+	</aside>
+
+	<aside class="page" id="page_support" style="display: none">
+		<div>
+			<table cellspacing="0" id="page_support_table">
+				<tr>
+					<th>Zone</th>
+					<th>Time</th>
+					<th>Checked</th>
+				</tr>
+			</table>
+		</div>
+	</aside>
+
+	<div id="pop_up" style="display: none;">
+		<div id="pop_up_element">
+			<label>SSID:</label>
+			<input type="text" name="ssid" placeholder="Write The SSID ...">
+
+			<label>Power:</label>
+			<input type="number" name="power" placeholder="Write the power min DBi">
+
+			<label>Audio</label>
+			<input type="number" name="audio" placeholder="Write The Audio index ...">
+
+			<input type="color" name="color" class="color">
+
+			<input type="hidden" name="dot_id">
+
+			<div id="pop_up_btns">
+				<button id="save" class="btn">Save</button>
+				<button id="cancel" class="btn" data-red>Delete</button>
+			</div>
+			
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
