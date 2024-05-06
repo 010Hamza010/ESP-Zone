@@ -29,7 +29,7 @@ Last_Update = {
 API_URL = ""
 
 def DEBUG(*text):
-	print("[DEBUG]", text)
+	print("[DEBUG]", *text)
 
 def API(data):
 	DEBUG("sent", data)
