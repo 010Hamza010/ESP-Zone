@@ -203,6 +203,7 @@ function createDot(ssid, color, given_id) {
 		holder.querySelectorAll("[name=ssid]")[0].value = ssid;
 		holder.querySelectorAll("[name=power]")[0].value = elements[ssid]["power"];
 		holder.querySelectorAll("[name=color]")[0].value = elements[ssid]["color"];
+		holder.querySelectorAll("[name=audio]")[0].value = elements[ssid]["audio"];
 		holder.querySelectorAll("[name=dot_id]")[0].value = id;
 
 		document.getElementById("pop_up").style.display = "flex";
