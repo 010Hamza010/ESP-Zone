@@ -24,6 +24,16 @@ The Flask server also provides:
 
 ![alt text](https://github.com/010Hamza010/ESP-Zone/blob/main/demo_photos/sketch.png?raw=true)
 
+## Dashboard:
+
+![alt text](https://github.com/010Hamza010/ESP-Zone/blob/main/demo_photos/map.png?raw=true)
+
+![alt text](https://github.com/010Hamza010/ESP-Zone/blob/main/demo_photos/form.png?raw=true)
+
+## Visitor Request:
+
+![alt text](https://github.com/010Hamza010/ESP-Zone/blob/main/demo_photos/alert.png?raw=true)
+
 ## Wiring :
 
 |ESP8266| MP3 Module |
